@@ -1,0 +1,12 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.Localization.schema.json",
+    "name.short": "Le App",
+    "name.full": "App pour Microsoft Teams",
+    "description.short": "Créez d'excellentes applications pour Microsoft Teams avec App.",
+    "description.full": "Créez de nouvelles applications Microsoft Teams, concevez et prévisualisez des cartes bot, et explorez la documentation avec App.",
+    "staticTabs[0].name": "Editeur de manifest",
+    "staticTabs[1].name": "Editeur de cartes",
+    "staticTabs[2].name": "Bibliothèque de contrôles",
+    "bots[0].commandLists[0].commands[0].title": "chercher",
+    "bots[0].commandLists[0].commands[0].description": "Rechercher la documentation Teams pertinente"
+  }

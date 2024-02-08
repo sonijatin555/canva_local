@@ -1,0 +1,125 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+              {
+                  "type": "Column",
+                  "items": [
+                      {
+                          "type": "TextBlock",
+                          "text": "shared",
+                          "size": "Small",
+                          "color": "Accent",
+                          "horizontalAlignment": "Right"
+                      }
+                  ],
+                  "width": "auto",
+                  
+                  "spacing": "Small"
+              },
+              {
+                  "type": "Column",
+                  "items": [
+                      {
+                          "type": "TextBlock",
+                          "text": "a design",
+                          "size": "Small"
+                         
+                      }
+                  ],
+                  "width": "auto",
+                  "spacing": "Small"
+              }
+          ],
+          "horizontalAlignment": "Left",
+          "spacing": "Small",
+          "style": "default"
+      },
+        {
+          "type": "TextBlock",
+          "text": "${title}",
+          "size": "Large",
+          "weight": "Bolder",
+          "wrap": true
+        },
+        {
+          "type": "Container",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${appName} for you",
+              "color": "Accent",
+              "weight": "Bolder",
+              "size": "Small",
+              "spacing": "None"
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "${description}",
+          "isSubtle": true,
+          "wrap": true
+        },
+        {
+          "type": "Image",
+          "url": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg",
+          "size": "large",
+          "width": "400px",
+          "height": "400px",
+          "altText": "Preview Image"
+        }
+    
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "Comment",
+      "card": {
+      "type": "AdaptiveCard",
+      "version": "1.4",
+                  "body": [
+                  {
+                      "type": "TextBlock",
+                      "text": "Please Comment Here"
+                  },
+                  {
+                      "type": "Input.Text",
+                      "id": "userInput",
+                      "placeholder": "Type here..."
+                  }
+              ],
+                  "actions": [
+                  {
+                      "type": "Action.Submit",
+                      "title": "Send"
+                  }
+              ]
+          }
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Open in Canva",
+      "url": "${notificationUrl}"
+    },
+    {
+      "type": "Action.ShowCard",
+      "title": "Open in Preview",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "Image",
+            "url": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg",
+            "size": "Large",
+            "altText": "Preview Image"
+          }
+        ]
+      }
+    }
+  ]
+}

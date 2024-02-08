@@ -1,0 +1,81 @@
+{
+  "_114c745b-73e6-44e5-8610-974ca3347ba8_a:16cCb6bN5dS_onBklSywQa4Wd_QaT-8gHuhlZbR1jYJY3-WuB3Dj4oJucYdnAq3F1b4_RE5O6bHCjr4abb8rwE7l2VL7fv7Rd3wXkMO7fpJYK2VeaLHkZ50qcnExFo8Ud": {
+    "activityId": "1705476494766",
+    "user": {
+      "id": "29:1XTaMRzn8pVHFskFxBQf7yF8Nb8YXNMlkjSDMH6HcQhDgk9SSLdHo0u4mPdC_JYJxdSJvaQx54-mrXD9d1uXRsQ",
+      "name": "Jatin Soni",
+      "aadObjectId": "7036c6df-ad4d-455e-ade8-d030b77ab983"
+    },
+    "bot": {
+      "id": "28:abce2612-8aa2-4154-be94-f018bfdbbfa6",
+      "name": "CanvaBot"
+    },
+    "conversation": {
+      "conversationType": "personal",
+      "tenantId": "114c745b-73e6-44e5-8610-974ca3347ba8",
+      "id": "a:16cCb6bN5dS_onBklSywQa4Wd_QaT-8gHuhlZbR1jYJY3-WuB3Dj4oJucYdnAq3F1b4_RE5O6bHCjr4abb8rwE7l2VL7fv7Rd3wXkMO7fpJYK2VeaLHkZ50qcnExFo8Ud"
+    },
+    "channelId": "msteams",
+    "locale": "en-US",
+    "serviceUrl": "https://smba.trafficmanager.net/apac/"
+  },
+  "_114c745b-73e6-44e5-8610-974ca3347ba8_a:1wL2u-10yaiQIEj_rXhDrjh94wMp2ZxN08rdTVhGCl4XtiFHZEPPSdttnhfUXqbHty0xHAhp1ufojzGbHZJqFI0YBNCK8ISUC2F4ZdK-aUR86yq6Z3dPK0EiwC2HEA5j6": {
+    "activityId": "f:0321fcbe-ab82-ace7-a33a-ee8d8865f00f",
+    "user": {
+      "id": "29:1S7W2UXZmZQJwUo4FzfXmVA2auuV6wDWeF4nsDNIBI7H45eTg9qk2PG-Oh1IpWX2kcVQfeXbg8NUoDBK-G699Fw",
+      "aadObjectId": "9c95a7ca-5140-4179-bbfa-f83cc675104d"
+    },
+    "bot": {
+      "id": "28:abce2612-8aa2-4154-be94-f018bfdbbfa6",
+      "name": "CanvaBot"
+    },
+    "conversation": {
+      "conversationType": "personal",
+      "tenantId": "114c745b-73e6-44e5-8610-974ca3347ba8",
+      "id": "a:1wL2u-10yaiQIEj_rXhDrjh94wMp2ZxN08rdTVhGCl4XtiFHZEPPSdttnhfUXqbHty0xHAhp1ufojzGbHZJqFI0YBNCK8ISUC2F4ZdK-aUR86yq6Z3dPK0EiwC2HEA5j6"
+    },
+    "channelId": "msteams",
+    "locale": "en-US",
+    "serviceUrl": "https://smba.trafficmanager.net/apac/"
+  },
+  "_114c745b-73e6-44e5-8610-974ca3347ba8_a:1eHjffKNactQz6oR8bIK5HXgZlKu8TfT1X8Hx4SJbIseBVOboeUyTy-MQZzweBPDi6ZCfITUq6giSyWN8WnDBkopFYCeZZQQDyAtyyRlT2WzaMptoQssnIbMxtHR5-YJt": {
+    "activityId": "1706858379188",
+    "user": {
+      "id": "29:1MnSHX1kZdmRHrzobcXZ3OV2WXFrm6VAZ35mE8v0rv_C1uYjqw4ttx9z9XckZjUXQ4v_EtSFL1qux6poWO7reVg",
+      "name": "utkarsh ahuja",
+      "aadObjectId": "4d412d07-639d-4dea-97f8-694a3ad5c194"
+    },
+    "bot": {
+      "id": "28:abce2612-8aa2-4154-be94-f018bfdbbfa6",
+      "name": "CanvaBot"
+    },
+    "conversation": {
+      "conversationType": "personal",
+      "tenantId": "114c745b-73e6-44e5-8610-974ca3347ba8",
+      "id": "a:1eHjffKNactQz6oR8bIK5HXgZlKu8TfT1X8Hx4SJbIseBVOboeUyTy-MQZzweBPDi6ZCfITUq6giSyWN8WnDBkopFYCeZZQQDyAtyyRlT2WzaMptoQssnIbMxtHR5-YJt"
+    },
+    "channelId": "msteams",
+    "locale": "en-US",
+    "serviceUrl": "https://smba.trafficmanager.net/apac/"
+  },
+  "_114c745b-73e6-44e5-8610-974ca3347ba8_a:1PqLwu15qgpWEh_YaUKuPzB8qtgvQInqFQ0s_4-KfCyoVYOD6F6AaJ8BeJXMq8j4Xb2r4H-i1y60wZw-dOet20X0X1QYQBbXZAjH1SCmSF1wbIseKCbukDPrIfm_4gR1a": {
+    "activityId": "1706858384130",
+    "user": {
+      "id": "29:1lAovuU1pmOB862XQGZNwE2Jz2e9c5CIj9M1jgKlzQPzxcR1JXX2wquxSpim7Eqpnmg73BolvqSBpjGijSFoJ7A",
+      "name": "Manish Kumar",
+      "aadObjectId": "e84b0a3f-2d75-4a9a-a8b2-cf373da718e5"
+    },
+    "bot": {
+      "id": "28:abce2612-8aa2-4154-be94-f018bfdbbfa6",
+      "name": "CanvaBot"
+    },
+    "conversation": {
+      "conversationType": "personal",
+      "tenantId": "114c745b-73e6-44e5-8610-974ca3347ba8",
+      "id": "a:1PqLwu15qgpWEh_YaUKuPzB8qtgvQInqFQ0s_4-KfCyoVYOD6F6AaJ8BeJXMq8j4Xb2r4H-i1y60wZw-dOet20X0X1QYQBbXZAjH1SCmSF1wbIseKCbukDPrIfm_4gR1a"
+    },
+    "channelId": "msteams",
+    "locale": "en-US",
+    "serviceUrl": "https://smba.trafficmanager.net/apac/"
+  }
+}

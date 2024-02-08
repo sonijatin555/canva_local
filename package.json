@@ -1,0 +1,48 @@
+{
+    "name": "canvabot",
+    "version": "1.0.0",
+    "description": "Microsoft Teams Toolkit Notification Bot Sample (Restify)",
+    "engines": {
+        "node": "16 || 18"
+    },
+    "author": "Microsoft",
+    "license": "MIT",
+    "main": "./src/index.js",
+    "scripts": {
+        "dev:teamsfx": "env-cmd --silent -f .localConfigs npm run dev",
+        "dev:teamsfx:testtool": "env-cmd --silent -f .localConfigs.testTool npm run dev",
+        "dev:teamsfx:launch-testtool": "env-cmd --silent -f env/.env.testtool teamsapptester start",
+        "dev": "nodemon --inspect=9239 --signal SIGINT ./src/index.js",
+        "start": "node ./src/index.js",
+        "watch": "nodemon ./src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "@iamtraction/google-translate": "github:iamtraction/google-translate",
+        "@microsoft/adaptivecards-tools": "^1.0.0",
+        "@microsoft/teamsfx": "^2.3.0",
+        "axios": "^1.6.7",
+        "body-parser": "^1.20.2",
+        "botbuilder": "^4.20.0",
+        "bottleneck": "^2.19.5",
+        "cheerio": "^1.0.0-rc.12",
+        "express": "^4.18.2",
+        "google-translate": "^3.0.0",
+        "http-proxy-middleware": "^2.0.6",
+        "json2csv": "^6.0.0-alpha.2",
+        "mocha": "^10.2.0",
+        "react-native-gifted-chat": "^2.4.0",
+        "restify": "^10.0.0",
+        "translate": "^2.0.2"
+    },
+    "devDependencies": {
+        "chai": "^5.0.3",
+        "env-cmd": "^10.1.0",
+        "nodemon": "^2.0.7",
+        "supertest": "^6.3.4"
+    }
+}

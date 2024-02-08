@@ -1,0 +1,85 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [ 
+                {
+                    "type": "TextBlock",
+                    "text": "{{Title}}",
+                    "weight": "bolder",
+                    "size": "medium"
+                },
+
+                {
+                    "type": "TextBlock",
+                    "text": "{{Subtitle}}"
+                },
+
+                {
+                    "type": "Image",
+                    "size": "auto",
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQQKrovVPskzUe8AnVELsw2WRxN3sAJ_ZU2i-A9KCXA&s"
+                }
+            ],
+
+        "actions": [
+            {
+            "type": "Action.ShowCard",
+            "title": "{{Comment}}",
+            "card": {
+                        "type": "AdaptiveCard",
+                        "version": "1.0",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "{{CommentBoxTitle}}"
+                            },
+                
+                            {
+                                "type": "Input.Text",
+                                "id": "userInput",
+                                "placeholder": "{{CommentBoxPlaceholder}}"
+                            }
+                        ],
+                
+                        "actions": [
+                            {
+                                "type": "Action.Submit",
+                                "title": "{{CommentBoxSend}}"
+                            }
+                        ]
+                    }
+        },
+
+        {
+            "type": "Action.OpenUrl",
+            "title": "{{OpenInCanva}}",
+            "url": "https://www.canva.com"
+        },
+
+        {
+            "type": "Action.Submit",
+            "id": "btnPreview",
+            "title": "{{Preview}}",
+            "data": {
+                        "url": "https://www.canva.com/design/DAF7iyLNoUs/sOrjkaOzO1wHfvRNJd5b7w/view?embed&utm_source=integration_ms-teams&utm_medium=referral&utm_content=f3f31bb5-8faa-413a-9861-7c62e101ce03&utm_campaign=unfurl_document-url-public_preview_button&utm_term=ff4ea8e6-677f-43cf-b8c5-1c1c65bfeafd",
+                        "msteams": {
+                        "type": "task/fetch",
+                        "message": "Hi"
+                        }
+                    }
+        },
+
+        {
+            "type": "Action.Submit",
+            "id": "btnBuy",
+            "title": "{{PopUp}}",    
+            "data": {
+                        "msteams": {
+                            "type": "task/fetch",
+                            "message": "Hi"
+                        }
+                    }
+        }
+    ]
+}
